@@ -22,3 +22,5 @@ mv pom2.xml pom.xml
 mvn clean install > /dev/null 2>&1
 java -jar ./target/day256-1.0-SNAPSHOT.jar
 ```
+
+Перед запуском убедитесь, что установлены java (java -version) и maven (mvn -version).
